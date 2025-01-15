@@ -214,7 +214,7 @@ left_column="""
                 </div>
 """
 
-data_projects = pd.read_csv('/csvs/Projects.csv', delimiter=';')
+data_projects = pd.read_csv('csvs/Projects.csv', delimiter=';')
 data_projects.columns = data_projects.columns.str.strip()
 projects=""
 for _,row in data_projects.iterrows():
@@ -255,7 +255,7 @@ project_experience="""
 """
 
 
-data_education = pd.read_csv('/csvs/Education.csv', delimiter=';')
+data_education = pd.read_csv('csvs/Education.csv', delimiter=';')
 data_education.columns = data_education.columns.str.strip()
 educations=""
 for _, row in data_education.iterrows():
@@ -290,7 +290,7 @@ educations_exp="""<div class="w3-container w3-card w3-white">
 """
 
 
-data_certifications = pd.read_csv('/csvs/Certificates.csv', delimiter=';')
+data_certifications = pd.read_csv('csvs/Certificates.csv', delimiter=';')
 data_certifications.columns = data_certifications.columns.str.strip()
 certifications=""
 for _, row in data_certifications.iterrows():
@@ -328,7 +328,7 @@ certification_exp ="""
 
 
 
-data_courses = pd.read_csv('/csvs/Courses.csv', delimiter=';')
+data_courses = pd.read_csv('csvs/Courses.csv', delimiter=';')
 data_courses.columns = data_courses.columns.str.strip()
 courses=""
 for _, row in data_courses.iterrows():
