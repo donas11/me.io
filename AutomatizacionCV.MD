@@ -6,4 +6,3 @@ graph TD
     B -->|Sí| C[Ejecutamos Python]
     B -->|No| E[Fin]
     C --> E[Fin]
-    D --> E
