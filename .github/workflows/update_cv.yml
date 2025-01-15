@@ -1,5 +1,8 @@
 name: Update Curriculum HTML
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
