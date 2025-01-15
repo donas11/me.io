@@ -420,5 +420,5 @@ body ="""
 
 html= "<!doctype html><html> "+ head + body +"</html>"
 
-with open('./index.html', 'w') as f:
+with open('./cv.html', 'w') as f:
     f.write(html)
